@@ -1,0 +1,116 @@
+@import url("Colors.css");
+
+.Categories-Products-Container {
+  margin: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Cards-Container {
+  width: 100%;
+  margin: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card-Shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: var(--color-light);
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-accent-tint-grey-1-transparent);
+}
+
+.Card-Shop:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+}
+
+.Card-img {
+  height: auto;
+}
+
+.card-img-top {
+  flex-shrink: 0;
+  width: 200px;
+  height: 300px;
+}
+
+.Categories {
+  margin: 3rem;
+  padding: 1rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Title-Category,
+.Bag-Title {
+  margin-top: 1rem;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Button-Container {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  border-bottom: 2px solid var(--color-accent-tint-grey-1);
+}
+
+#Shop-Button {
+  margin: 1rem;
+  width: 200px;
+  height: 45px;
+  background: var(--color-light);
+  border-radius: 5px;
+  border: 3px solid var(--color-accent-tint-grey-1);
+  padding: 11px 19px 11px 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#Shop-Button:hover {
+  color: var(--color-primary-tint-purple-0);
+  font-weight: bold;
+  border: 3px solid var(--color-accent-tint-grey-3);
+}
+
+.filter-selected {
+  color: var(--color-accent-tint-orange-1);
+  font-weight: 600;
+  text-shadow: 1px 1px 2px var(--color-accent-tint-grey-3);
+  border: 2px solid var(--color-accent-tint-grey-3);
+}
+
+
+@media (max-width: 500px) {
+  .Button-Container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-bottom: 2px solid var(--color-accent-tint-grey-1);
+  }
+}
+

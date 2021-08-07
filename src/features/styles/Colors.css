@@ -1,0 +1,43 @@
+:root {
+  --color-primary-purple: #240046;
+  --color-primary-tint-purple-0: #9f78ff;
+  --color-primary-tint-purple-1: #9d4edd;
+  --color-primary-tint-purple-2: #7b2cbf;
+  --color-primary-tint-purple-3: #5a189a;
+  --color-primary-tint-purple-4: #3c096c;
+
+  /* --color-primary-tint-purple-0: #9f78ff;
+  --color-primary-tint-purple-1: #8c6ae4;
+  --color-primary-tint-purple-2: #6122c7; 
+  --color-accent-tint-orange-0: #dd7e2f;
+   --color-accent-blue: #1d2547;
+  --color-accent-grey: #616875;*/
+
+  --color-accent-orange: #ff6d00;
+  --color-accent-tint-orange-0: #ff9e00;
+  --color-accent-tint-orange-1: #ff9100;
+  --color-accent-tint-orange-2: #ff8500;
+  --color-accent-tint-orange-3: #ff7900;
+  --color-accent-tint-orange-transparent: #ff6f00e3;
+
+  --color-accent-blue: #1d2547;
+  --color-accent-tint-blue-0: #0077b6;
+  --color-accent-tint-blue--1: #03045e;
+
+  --color-accent-grey: #51475f;
+  --color-accent-grey-transparent: #51475f7e;
+  --color-accent-tint-grey-0: #f8f9fa;
+  --color-accent-tint-grey-1: #e9ecef;
+  --color-accent-tint-grey-1-transparent: #e9ecefcc;
+  --color-accent-tint-grey-2: #dee2e6;
+  --color-accent-tint-grey-3: #ced4da;
+  --color-accent-tint-grey-4: #adb5bd;
+  --color-accent-tint-grey-5: #6c757d;
+
+  --color-facebook-icon: blue;
+  --color-instagram-icon: purple;
+  --color-youtube-icon: red;
+
+  --color-light: white;
+  --color-black: #070707;
+}

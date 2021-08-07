@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Sans+Pro&display=swap");
+
+/* My Choices are these 2 fonts, use however you like
+
+font-family: 'Crimson Text', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text", serif;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar a,
+.Title-Category,
+.card-titel.h5,
+.Best-container h2,
+.Quick-links h4,
+.Partners-links h4,
+.Contact-info h4,
+.product-title,
+.product-checkout,
+.product-quantity-label {
+  font-family: "Crimson Text", serif;
+}
+
+.secondary-btn a,
+.main-btn a,
+.Links-wrapper p,
+.Links-wrapper a,
+.Contact-info span,
+.Credentials span,
+.Description-About,
+.product-description,
+.product-available,
+.modal-link,
+.profile h2,
+.form-label,
+.submit-btn {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title-Container {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    hsla(271, 85%, 23%, 1) 44%,
+    hsla(271, 100%, 14%, 1) 100%
+  );
+  color: var(--color-accent-tint-grey-0);
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px var(--color-accent-tint-grey-4);
+}
+.Title-Shop,
+.Title-About,
+.Title-Cart,
+.Title-PageNotFound,
+.Title-Contact,
+.Bag-Title {
+  font-size: 24px;
+}
+
+/* ----------------------------------------------------- */
+/* SHOP MEDIA */
+
+@media (max-width: 900px) {
+  .Categories-Products-Container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .itemlist {
+    width: auto;
+    margin: auto;
+    padding: 0;
+  }
+  .itemlist-item-wrapper {
+    width: 48%;
+    margin: auto;
+    margin-bottom: 0.5%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .itemlist {
+    width: auto;
+    margin: auto;
+    padding: 0;
+  }
+  .itemlist-item-wrapper {
+    width: auto;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+}
+
+/* HOME PAGE */
+@media (min-width: 1201px) {
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-item h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .carousel-caption .main-btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    overflow: hidden;
+    background: linear-gradient(to right, #3c096c, #7b2cbf 50%, #3c096c 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+  }
+
+  .carousel-caption .main-btn:hover {
+    background-position: 0 100%;
+    text-decoration: none;
+  }
+
+  .carousel-caption .main-btn a {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-light);
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-item h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .carousel-caption .main-btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    overflow: hidden;
+    background: linear-gradient(to right, #7b2cbf, #3c096c 50%, #3c096c 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+  }
+
+  .carousel-caption .main-btn:hover {
+    background-position: 0 100%;
+    text-decoration: none;
+  }
+
+  .carousel-caption .main-btn a {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-light);
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel-caption {
+    top: 55%;
+  }
+  .carousel-item h1 {
+    font-size: 40px;
+  }
+  .carousel-caption .main-btn {
+    width: 200px;
+    height: 60px;
+  }
+
+  .carousel-caption .main-btn a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    top: 55%;
+  }
+  .carousel-item h1 {
+    font-size: 40px;
+  }
+  .carousel-caption .main-btn {
+    width: 200px;
+    height: 60px;
+  }
+
+  .carousel-caption .main-btn a {
+    font-size: 20px;
+  }
+}
+
+/* ABOUT PAGE */
+@media (max-width: 800px) {
+  .About-Image {
+    width: 25rem;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  .Description-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 400px) {
+  .About-Image {
+    width: 15rem;
+    object-fit: contain;
+  }
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-quantity {
+    text-align: left;
+  }
+  .quantity-left-btn,
+  .quantity-right-btn {
+    padding: 7px;
+    margin: 5px;
+  }
+}

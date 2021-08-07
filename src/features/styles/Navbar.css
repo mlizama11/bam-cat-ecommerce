@@ -1,0 +1,82 @@
+.navbar {
+  background: var(--color-accent-tint-grey-1-transparent);
+}
+
+.logo {
+  height: 70px;
+}
+
+.is-active a {
+  margin: 20px;
+  font-size: 20px;
+  color: var(--color-accent-tint-grey-5);
+  text-shadow: 1px 1px 1px var(--color-accent-tint-grey-1);
+}
+
+.is-active a:hover {
+  color: var(--color-primary-tint-purple-0);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px var(--color-accent-tint-grey-2);
+}
+
+.is-active a:active {
+  color: var(--color-accent-tint-orange-1);
+  font-weight: 600;
+  text-shadow: 1px 1px 2px var(--color-accent-tint-grey-3);
+}
+
+.Social-links .facebook-icon,
+.Social-links .instagram-icon,
+.Social-links .youtube-icon {
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.Social-links .facebook-icon svg {
+  color: var(--color-facebook-icon);
+}
+
+.Social-links .instagram-icon svg {
+  color: var(--color-instagram-icon);
+}
+
+.Social-links .youtube-icon svg {
+  color: var(--color-youtube-icon);
+}
+
+.Social-links .shopping-icon {
+  height: 50px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  overflow: hidden;
+  background: linear-gradient(to right, #3c096c, #7b2cbf 50%, #3c096c 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.Social-links .shopping-icon svg:active {
+  color: var(--color-accent-tint-orange-1);
+}
+.Social-links .shopping-icon svg {
+  color: var(--color-light);
+}
+
+.Social-links .shopping-icon:hover {
+  background-position: 0 100%;
+}
+
+.navbar-toggler {
+  width: 60px;
+  height: 60px;
+}

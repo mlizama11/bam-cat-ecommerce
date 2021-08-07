@@ -1,0 +1,139 @@
+@import url("Colors.css");
+
+.carousel-item h1 {
+  text-shadow: 1px 1px var(--color-accent-orange);
+}
+
+.Carousel-Image {
+  width: 100vw;
+  height: 800px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.Best-container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 46px;
+  text-align: center;
+  color: var(--color-accent-tint-grey-3);
+}
+
+.card-deck {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-deck .card {
+  display: block;
+  top: 0px;
+  position: relative;
+  min-width: 22rem;
+  max-width: 22rem;
+  margin: 10px;
+  background-color: var(--color-light);
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-light);
+}
+
+.card-deck .card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+}
+
+.card-deck .card:hover:before {
+  transform: scale(2.15);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text svg {
+  color: var(--color-accent-tint-orange-0);
+}
+
+.full-price {
+  color: var(--color-accent-grey);
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.price-cents {
+  text-decoration: underline;
+  vertical-align: top;
+  padding-left: 3px;
+  font-size: 14px;
+}
+
+.position-secondary-btn {
+  text-align: center;
+  margin: 30px;
+}
+
+.secondary-btn {
+  width: 250px;
+  height: 60px;
+  border: none;
+  overflow: hidden;
+  background: linear-gradient(to right, #3c096c, #7b2cbf 50%, #3c096c 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.secondary-btn a {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+.secondary-btn:hover {
+  background-position: 0 100%;
+  text-decoration: none;
+}
+.secondary-btn a,
+.main-btn a,
+.Best-container h2 {
+  text-shadow: 1px 1px 2px var(--color-accent-tint-grey-5);
+}
+
+.secondary-btn a:active,
+.main-btn a:active {
+  color: var(--color-accent-tint-orange-1) !important;
+}
+
+.General-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 150px 50px;
+  color: var(--color-accent-grey);
+}
+.general-icons {
+  text-align: center;
+}
+
+.general-icons svg {
+  margin: 10px;
+}
+
+.Delivery,
+.Payment,
+.Moneyback,
+.Customer-Support {
+  width: 300px;
+}

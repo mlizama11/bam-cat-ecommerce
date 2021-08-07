@@ -1,0 +1,38 @@
+.btn {
+  background: linear-gradient(to right, #3c096c, #7b2cbf 50%, #3c096c 50%);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  overflow: hidden;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-shadow: 1px 1px 2px var(--color-accent-tint-grey-5);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  text-decoration: none;
+  color: var(--color-primary-tint-purple-0);
+}
+
+.btn:active {
+  color: var(--color-accent-tint-orange-1);
+}
+
+.btn:focus {
+  border: 2px solid var(--color-primary-tint-purple-0);
+}
+
+.Align {
+  display: flex;
+  justify-content: space-between;
+}
