@@ -36,16 +36,16 @@ We are 3 students from the DCI web-development department. *"BAM"* - Is the comb
 ## SHORT PREVIEW
 
 - ### __Home page hero-image__
-![BamCat](preview/home-page-capture.png)
+![BamCat](preview/home-page-capture.PNG)
 
 - ### __Home page popular products__
 ![BamCat](preview/home-page-popular-capture.png)
 
 - ### __Shop&Categories__
-![BamCat](preview/shop-capture.png)
+![BamCat](preview/shop-capture.PNG)
 
 - ### __Product details__
-![BamCat](preview/modal-product-capture.png)
+![BamCat](preview/modal-product-capture.PNG)
 
 - ### __Cart__
-![BamCat](preview/cart-capture.png)
+![BamCat](preview/cart-capture.PNG)
