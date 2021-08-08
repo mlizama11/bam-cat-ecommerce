@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/bam-cat-ecommerce/static/css/main.30fdf2a9.chunk.css",
+    "main.js": "/bam-cat-ecommerce/static/js/main.f8b76cef.chunk.js",
+    "main.js.map": "/bam-cat-ecommerce/static/js/main.f8b76cef.chunk.js.map",
+    "runtime-main.js": "/bam-cat-ecommerce/static/js/runtime-main.a2719904.js",
+    "runtime-main.js.map": "/bam-cat-ecommerce/static/js/runtime-main.a2719904.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/bam-cat-ecommerce/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.951aec03.chunk.js": "/bam-cat-ecommerce/static/js/2.951aec03.chunk.js",
+    "static/js/2.951aec03.chunk.js.map": "/bam-cat-ecommerce/static/js/2.951aec03.chunk.js.map",
+    "index.html": "/bam-cat-ecommerce/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/bam-cat-ecommerce/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.30fdf2a9.chunk.css.map": "/bam-cat-ecommerce/static/css/main.30fdf2a9.chunk.css.map",
+    "static/js/2.951aec03.chunk.js.LICENSE.txt": "/bam-cat-ecommerce/static/js/2.951aec03.chunk.js.LICENSE.txt",
+    "static/media/fashionstore.0b392768.jpg": "/bam-cat-ecommerce/static/media/fashionstore.0b392768.jpg",
+    "static/media/hero.288e83ea.jpg": "/bam-cat-ecommerce/static/media/hero.288e83ea.jpg",
+    "static/media/hero1.55b1bc98.jpg": "/bam-cat-ecommerce/static/media/hero1.55b1bc98.jpg",
+    "static/media/hero2.569eda52.jpg": "/bam-cat-ecommerce/static/media/hero2.569eda52.jpg",
+    "static/media/hero3.18818907.jpg": "/bam-cat-ecommerce/static/media/hero3.18818907.jpg",
+    "static/media/logo.146dd4c9.svg": "/bam-cat-ecommerce/static/media/logo.146dd4c9.svg",
+    "static/media/men1.d4ea333e.png": "/bam-cat-ecommerce/static/media/men1.d4ea333e.png",
+    "static/media/men2.8743dd62.jpg": "/bam-cat-ecommerce/static/media/men2.8743dd62.jpg",
+    "static/media/men3.2cf427c4.png": "/bam-cat-ecommerce/static/media/men3.2cf427c4.png",
+    "static/media/men4.3684ed84.jpg": "/bam-cat-ecommerce/static/media/men4.3684ed84.jpg",
+    "static/media/women1.5b53f228.png": "/bam-cat-ecommerce/static/media/women1.5b53f228.png",
+    "static/media/women2.d94c7bd5.jpg": "/bam-cat-ecommerce/static/media/women2.d94c7bd5.jpg",
+    "static/media/women3.f9508b51.jpg": "/bam-cat-ecommerce/static/media/women3.f9508b51.jpg",
+    "static/media/women4.2515fbf3.jpg": "/bam-cat-ecommerce/static/media/women4.2515fbf3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2719904.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.951aec03.chunk.js",
+    "static/css/main.30fdf2a9.chunk.css",
+    "static/js/main.f8b76cef.chunk.js"
+  ]
+}
