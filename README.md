@@ -4,7 +4,7 @@ A project request from *DCI* to complete at the end of *SPA-Module* after learni
 The outcome was created from a group project and the collaborators are included in this repository.
 
 [Demo]
-(https://nastasiia-smr.github.io/BAM-Cat-eCommerce/)
+(https://mlizama11.github.io/bam-cat-ecommerce/)
 
 ## WHAT IS BAM-CAT? AND WHO ARE THE TEAM MEMBERS?
 
