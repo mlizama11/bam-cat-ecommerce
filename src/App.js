@@ -18,7 +18,7 @@ import PageNotFound from "./features/Pages/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/bam-cat-ecommerce">
         <NavbarFunc />
         <Switch>
           <Route path="/" exact component={HomePage} />
